@@ -21,5 +21,5 @@ import messenger.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', messenger.views.hello),
-    path('sign/', messenger.views.sign)
+    path('', messenger.views.sign)
 ]
